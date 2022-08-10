@@ -1,0 +1,41 @@
+.main aside {
+    max-width: 260px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+
+.main section {
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin:10px
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: tomato;
+    border: 3pt solid tomato;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px black;
+    justify-content: space-around;
+
+}
+
+.main footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+a{
+    color: black;
+    font-size: medium;
+}
+
