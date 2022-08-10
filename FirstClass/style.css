@@ -1,3 +1,22 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    background-color: tomato;
+    border: 3pt solid tomato;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px black;
+    justify-content: space-around;
+
+}
+
+.main section {
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin:10px
+}
+
 .main aside {
     max-width: 260px;
     margin-top: 20px;
@@ -8,25 +27,6 @@
     text-align: center;
 }
 
-.main section {
-    flex-direction: column;
-    width: 50%;
-    text-align: center;
-    margin:10px
-}
-
-.main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    background-color: tomato;
-    border: 3pt solid tomato;
-    border-radius: 3px;
-    box-shadow: 2px 2px 7px black;
-    justify-content: space-around;
-
-}
-
 .main footer {
     width: 100%;
     text-align: center;
@@ -35,7 +35,15 @@
 }
 
 a{
-    color: black;
     font-size: medium;
+    color: black;  
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Caveat';
+    font-style: medium;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sedgwickave/v12/uK_04rKEYuguzAcSYRdWTJqMVmI0Zcc.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
