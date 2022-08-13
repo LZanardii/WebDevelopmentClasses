@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+.main {
+    background-color: bisque;
+    width: 95vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px black;
+}
+
+.operators {
+    background-color: goldenrod;
+}
+
+.operators:hover {
+    background-color: black;
+    color: goldenrod
+}
+
+table{
+    background-color: darkgrey;
+    width: 200px;
+    height: 300px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px;
+    padding-right: 1px;
+}
+
+table tr td {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: gainsboro;
+    width: 50px;
+    border-radius: 3px;
+    box-shadow: 2px;
+}
+
+table tr th {
+    height: 70px;
+}
