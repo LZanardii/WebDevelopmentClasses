@@ -3,13 +3,13 @@
 .main {
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: 60vw;
   background-color: tomato;
   border: 3pt solid tomato;
   border-radius: 3px;
   box-shadow: 2px 2px 7px black;
   justify-content: space-around;
-
+  margin-left: 300px;
 }
 
 .main section {
@@ -37,6 +37,7 @@
 }
 
 a{
+  font-family: 'Caveat', cursive;
   font-size: medium;
   color: black;  
 }
