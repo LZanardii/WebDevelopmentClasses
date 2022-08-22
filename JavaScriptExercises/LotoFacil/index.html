@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Loto Facil</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <section class="card">
+    <table>
+      <tr>
+        <td id="1" onClick="on_click(1)">1</td>
+        <td id="2" onClick="on_click(2)">2</td>
+        <td id="3" onClick="on_click(3)">3</td>
+        <td id="4" onClick="on_click(4)">4</td>
+        <td id="5" onClick="on_click(5)">5</td>
+      </tr>
+      <tr>
+        <td id="6" onClick="on_click(6)">6</td>
+        <td id="7" onClick="on_click(7)">7</td>
+        <td id="8" onClick="on_click(8)">8</td>
+        <td id="9" onClick="on_click(9)">9</td>
+        <td id="10" onClick="on_click(10)">10</td>
+      </tr>
+      <tr>
+        <td id="11" onClick="on_click(11)">11</td>
+        <td id="12" onClick="on_click(12)">12</td>
+        <td id="13" onClick="on_click(13)">13</td>
+        <td id="14" onClick="on_click(14)">14</td>
+        <td id="15" onClick="on_click(15)">15</td>
+      </tr>
+      <tr>
+        <td id="16" onClick="on_click(16)">16</td>
+        <td id="17" onClick="on_click(17)">17</td>
+        <td id="18" onClick="on_click(18)">18</td>
+        <td id="19" onClick="on_click(19)">19</td>
+        <td id="20" onClick="on_click(20)">20</td>
+      </tr>
+      <tr>
+        <td id="21" onClick="on_click(21)">21</td>
+        <td id="22" onClick="on_click(22)">22</td>
+        <td id="23" onClick="on_click(23)">23</td>
+        <td id="24" onClick="on_click(24)">24</td>
+        <td id="25" onClick="on_click(25)">25</td>
+      </tr>
+    </table>
+    <h3 id="feedback"></h3>
+    <div class="buttons">
+      <button id="random" onclick="random_selecteds()">Random</button>
+      <button id="reset" onclick="reset_selecteds()"> Reset</button>
+    </div>
+    <button  onclick="submit()">Salvar</button>
+  </section>
+
+  <script src="index.js"/>
+</body>
+
+</html>
