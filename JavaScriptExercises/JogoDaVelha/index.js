@@ -28,13 +28,24 @@ const atualiza_value = (element, value) => {
 
 const reiniciar_jogo = () => {
   one.innerHTML = "&nbsp;"
+  one.style.backgroundColor = "gainsboro"
   two.innerHTML = "&nbsp;" 
-  three.innerHTML = "&nbsp;" 
+  two.style.backgroundColor = "gainsboro"
+  three.innerHTML = "&nbsp;"
+  three.style.backgroundColor = "gainsboro" 
   four.innerHTML = "&nbsp;" 
+  four.style.backgroundColor = "gainsboro"
+  five.innerHTML = "&nbsp;" 
+  five.style.backgroundColor = "gainsboro"
   six.innerHTML = "&nbsp;" 
+  six.style.backgroundColor = "gainsboro"
   seven.innerHTML = "&nbsp;" 
-  eight.innerHTML = "&nbsp;" 
+  seven.style.backgroundColor = "gainsboro"
+  eight.innerHTML = "&nbsp;"
+  eight.style.backgroundColor = "gainsboro" 
   nine.innerHTML = "&nbsp;"
+  nine.style.backgroundColor = "gainsboro"
+  vencedor.innerHTML = operador_x
 }
 
 const valida_velha = () => {

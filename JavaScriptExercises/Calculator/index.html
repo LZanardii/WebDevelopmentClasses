@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+	<div class="main">        
+		<table>
+			<tr>
+        <th id="finalValue"colspan="4"></th>
+			</tr>
+			<tr>
+				<td onclick="clean()">AC</td>
+				<td>+/-</td>
+				<td>%</td>
+				<td class="operators" onclick="operation(Operators.obelus)">÷</td>
+			</tr>
+			<tr>
+				<td onclick="getNumber('7')">7</td>
+				<td onclick="getNumber('8')">8</td>
+				<td onclick="getNumber('9')">9</td>
+				<td class="operators" onclick="operation(Operators.time)">×</td>
+			</tr>
+			<tr>
+				<td onclick="getNumber('4')">4</td>
+				<td onclick="getNumber('5')">5</td>
+				<td onclick="getNumber('6')">6</td>
+				<td class="operators" onclick="operation(Operators.minus)">-</td>
+			</tr>
+			<tr>
+				<td onclick="getNumber('1')">1</td>
+				<td onclick="getNumber('2')">2</td>
+				<td onclick="getNumber('3')">3</td>
+				<td class="operators" onclick="operation(Operators.plus)">+</td>
+			</tr>
+			<tr>
+				<td colspan="2" onclick="getNumber('0')">0</td>
+				<td onclick="getNumber('.')">,</td>
+				<td class="operators" onclick="operation(Operators.equals)">=</td>
+			</tr>
+		</table>
+	</div> 
+
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -87,6 +87,3 @@ const submit = () => {
   }
   console.log(array_numbers.filter((obj) => obj.selected == true))
 }
-
-
-
