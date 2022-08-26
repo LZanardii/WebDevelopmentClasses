@@ -17,6 +17,7 @@ const clean = () => {
   operator = ""
   finalValue.innerHTML = ""
 }
+
 const getNumber = (number) => {
   if (!operator) {
     firstNumber += number
