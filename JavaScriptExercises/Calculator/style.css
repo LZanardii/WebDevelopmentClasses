@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   background-color: bisque;
-  height: 500px;
+  height: 100vh;
   border-radius: 3px;
   box-shadow: 2px 2px 7px black;
 }
@@ -26,24 +26,27 @@
 }
 
 table{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
   background-color: darkgrey;
-  width: 200px;
-  height: 300px;
+  width: 400px;
+  height: 500px;
   padding-right: 1px;
   border-radius: 3px;
   box-shadow: 2px 2px 5px;
 }
 
 table tr td {
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 500;
   text-align: center;
   background-color: gainsboro;
+  font-size: 20px;
   width: 50px;
   border-radius: 3px;
   box-shadow: 2px;
+  cursor: pointer;
 }
 
 table tr th {
-  height: 70px;
+  height: 150px;
+  font-size: 40px;
 }

@@ -35,7 +35,7 @@ button:hover {
 .baseboard {
   position: fixed;
   display: flex;
-  top: 350px;
+  top: 420px;
   justify-content: space-between;
   width: 200px;
   height: 30px;
@@ -43,7 +43,7 @@ button:hover {
 
 .counter {
   position: fixed;
-  top: 385px;
+  top: 465px;
   font-family: 'Rajdhani', sans-serif;
   font-size: 15px;
 }
