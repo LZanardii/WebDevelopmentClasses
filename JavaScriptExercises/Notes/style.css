@@ -13,8 +13,8 @@ body {
 
 textarea {
   padding: 15px;
-  height: 250px;
-  width: 200px;
+  height: 350px;
+  width: 300px;
   border-radius: 3px;
   box-shadow: 2px 2px 7px black;
   position: fixed;
@@ -35,15 +35,15 @@ button:hover {
 .baseboard {
   position: fixed;
   display: flex;
-  top: 420px;
+  top: 510px;
   justify-content: space-between;
-  width: 200px;
+  width: 300px;
   height: 30px;
 }
 
 .counter {
   position: fixed;
-  top: 465px;
+  top: 580px;
   font-family: 'Rajdhani', sans-serif;
   font-size: 15px;
 }

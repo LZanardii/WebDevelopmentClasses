@@ -33,9 +33,6 @@ const operate = () => {
   secondNumber = secondNumber
   var resultado = "ERRO"
   if (firstNumber && operator && secondNumber) {
-    console.log(firstNumber)
-    console.log(operator)
-    console.log(secondNumber)
     resultado = eval(firstNumber + operator + secondNumber)
   }
   return resultado
